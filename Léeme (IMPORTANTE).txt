@@ -1,0 +1,51 @@
+Para poder iniciar sesión y utilizar el programa
+deberá colocar lo siguiente:
+correo eléctronico: gamerdream@gmail.com
+contraseña: admin 
+Luego de ello dar click a "login".
+
+En mi caso utilice Mysql desde Xampp aunque también es compatible con MySQL Workbench, debido a ello se deberá importar el
+archivo "base de datos super.sql" en su Phpmyadmin o MySQL Workbench. En caso de haber un error intentar cargando nuevamente
+cada librería.
+
+Una vez iniciada la sesión, para utilizar el programa correctamente se deberá hacer lo siguiente:
+
+Para agregar clientes: 
+1- Dar click a clientes.
+2- En registro colocar los datos correspondientes como: Dni, nombre, teléfono, etc.
+3- Después de ello solo deberá dar click a el logo con flechita verde.
+4- En caso de necesitar modificar el cliente, dar click a el cliente en cuestión y 
+modificar sus datos, una vez hecho ello dar click a el logo azul o celeste y se guardarán los
+cambios.
+5- Si deseas eliminar o remover un cliente, lo seleccionarás y darás un click en la equis roja.
+
+Para agregar productos:
+1- Dar click a productos.
+2- En registro colocar los datos correspondientes como: código, descripción, cantidad, etc.
+-------IMPORTANTE SELECCIONAR UN PROVEEDOR(en caso de no hacerlo se generará un error, él cuál trataré 
+de solucionar más adelante).
+4- En caso de necesitar modificar algún producto, dar click a el producto en cuestión y 
+modificar sus datos, una vez hecho ello dar click a el logo azul o celeste y se guardarán los
+cambios.
+5- Si deseas eliminar o remover un producto, lo seleccionarás y darás un click en la equis roja.
+
+Para realizar una venta será de suma importancia seguir los siguientes pasos:
+1- Dar click a productos, seleccionar el producto que se va a vender, una vez seleccionado 
+copiar su código (seleccionar con el mouse el codigo y hacer la combinación de teclas de ctrl + c).
+2- Dar click a "nueva venta" y pegar el código anteriormente copiado en el apartado código (realizar
+la combinación de teclas ctrl + v), luego de haberlo pegado presionar ENTER.
+3- Selecciona la cantidad del producto sin rebasar la cantidad que le colocaste mientras lo registrabas
+y presionar ENTER nuevamente.
+4- Ir al apartado "clientes", seleccionar un cliente y copiar su "DNI".
+5- Volver al apartado de "nueva venta" y pegar el "DNI" del cliente que seleccionamos en donde dice DNI/RUC.
+6- Por último solo deberemos dar clicl a la pequeña impresora o el logo a lado de "Total a Pagar" para concretar el
+proceso de venta, si se hizo de manera debería aparecer un documente PDF simulando una factura.
+
+Para ver un reporte gráfico sobre las ventas realizadas durante el día o la semana, tienes que dar click en la 
+opción seleccionar, elijes una fecha y por último click a el logo de color rojo, verde, celeste y amarillo.
+
+No tuve tiempo para hacer una explicación completa del código, debido a los cortes frecuentes de luz e internet, por eso
+mismo solo me enfoqué en terminar el programa, por último este pequeño programa fue realizado en NETBEANS (8.2). El programa
+no está completamente terminado, posee ciertas limitaciones y errores.
+
+IGNACIO PATRICIO REYES RISSO PATRÓN COMISIÓN NRO°6 (TURNO TARDE)
